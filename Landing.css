@@ -1,0 +1,191 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #504375;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: beige;
+    flex-wrap: wrap;
+    background-color: #39324d;
+}
+
+.header i {
+    font-size: 3em;
+    color: beige;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 1em;
+    list-style: none;
+    font-size: 1em;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px;
+    color: beige;
+    border-radius: 5px;
+}
+
+.menu li :hover {
+    transition: 1s;
+    cursor: pointer;
+    color: aqua;
+}
+
+.Logo {
+    background: url(image/hotel.jpg);
+    background-repeat: no-repeat;
+    width: 98;
+    height: 92vh;
+}
+
+.Logo h1 {
+    padding-top: 1.5em;
+    text-align: center;
+    color: beige;
+    font-size: 8em;
+}
+
+.Logo h3 {
+    text-align: center;
+    color: beige;
+    font-size: 2em;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60em;
+    margin: 0px auto;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.flex img {
+    width: 20vw;
+    height: 30vh;
+    max-width: 21em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    border-radius: 30px;
+    display: block;
+    background-position: center;
+}
+
+
+.flex div {
+    margin: 10px;
+    flex: 1 1 200px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.568);
+    background-color: beige;
+    flex-wrap: wrap;
+    color: black;
+    border-radius: 30px;
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+
+.sobre {
+    padding: 8em;
+    background-color: rgb(226, 233, 233);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -70px;
+}
+
+.sobre h3 {
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.sobre p {
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.sobre img {
+    width: 450px;
+    height: 450px;
+    margin-left: 500 px;
+    margin-top: -70px;
+}
+
+.formulario {
+    align-items: center;
+    color: bisque;
+    padding: 4rem;
+    border: 10px;
+    border-radius: 20px;
+}
+
+
+
+.rodapé {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #39324d;
+    padding: 3em;
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+}
+
+.FT {
+    display: flex;
+}
+
+.FT li {
+    margin-right: 20px;
+    list-style: none;
+    display: inline;
+}
+
+
+
+.FT li a {
+    text-decoration: none;
+    color: beige;
+    font-size: 1em;
+    padding: 1em;
+}
+
+.FT a:hover {
+    color: aqua;
+    transition: 0.8s;
+}
+
+.FT i {
+    color: black;
+    font-size: 1.2em;
+    background-color: pink;
+    padding: 0.3em;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-bottom: 0.5em;
+}

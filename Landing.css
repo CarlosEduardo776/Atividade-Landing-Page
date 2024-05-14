@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Courier, monospace;
 }
 
 body {
@@ -94,14 +94,14 @@ body {
 .flex div {
     margin: 10px;
     flex: 1 1 200px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.568);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.418);
     background-color: beige;
     flex-wrap: wrap;
     color: black;
     border-radius: 30px;
     font-size: 1em;
     padding-bottom: 1em;
+    border-color: transparent;
 }
 
 
@@ -133,6 +133,8 @@ body {
     height: 450px;
     margin-left: 500 px;
     margin-top: -70px;
+    border-radius: 30px;
+
 }
 
 .formulario {
@@ -142,7 +144,6 @@ body {
     border: 10px;
     border-radius: 20px;
 }
-
 
 
 .rodapé {
@@ -188,4 +189,58 @@ body {
     margin-left: 10px;
     border-radius: 30px;
     margin-bottom: 0.5em;
+}
+
+
+.formulario {
+    background-color:  #675699;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.formulario h2 {
+    font-size: 2.2em;
+}
+
+.formulario input {
+    text-align: center;
+    font-size: 1.2em;
+    border-color: transparent;
+}
+
+
+.email {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: black;
+    height: 3rem;
+    width: 18rem;
+    margin: 0;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+}
+
+.button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    height: 3rem;
+    width: 12rem;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #4064d8;
+    color: ghostwhite;
 }
